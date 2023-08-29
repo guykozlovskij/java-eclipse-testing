@@ -1,9 +1,12 @@
+import java.util.ArrayList;
 
- class HelloWorld {
+class HelloWorld {
 
 	 @SuppressWarnings("unused")
 	public static void main(String[] args) {
 		    System.out.println("Hello");
+		    
+// class is a java file that helps us make objects
 
 //		    int a = 5;
 		    char b = 'i';
@@ -22,6 +25,11 @@
 		    Animal a = new Animal();
 		    String dog = a.iAmDog();
 		    System.out.println(dog);
+		    
+		    
+		    ArrayList<Integer> arr = new ArrayList<Integer>();
+		    
+		    a.doStuff();
 		    
 		  }
 
